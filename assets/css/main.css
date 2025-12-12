@@ -671,13 +671,86 @@ section,
   width: 100%;
   overflow: hidden;
   position: relative;
-  background: linear-gradient(0deg, rgba(0, 3, 52, 0.736) 0%, rgba(0, 15, 52, 0.801) 100%), url('/assets/img/hero.png') center center / cover no-repeat;
+  background: linear-gradient(0deg, rgba(0, 3, 52, 0.736) 0%, rgba(0, 15, 52, 0.801) 100%);
   padding: 0;
   display: flex;
   flex-direction: column;
   justify-content: end;
   align-items: center;
 }
+
+.slide-bg-1 {
+  background: linear-gradient(0deg, rgba(0, 3, 52, 0.736), rgba(0, 15, 52, 0.801)),
+              url('/assets/img/hero.png') center center / cover no-repeat;
+}
+
+.slide-bg-2 {
+  background: linear-gradient(0deg, rgba(0, 3, 52, 0.736), rgba(0, 15, 52, 0.801)),
+              url('/assets/img/slider2.jpeg') center center / cover no-repeat;
+}
+
+.slide-bg-3 {
+  background: linear-gradient(0deg, rgba(0, 3, 52, 0.736), rgba(0, 15, 52, 0.801)),
+              url('/assets/img/slider3.jpeg') center center / cover no-repeat;
+}
+
+.slide-bg-4 {
+  background: linear-gradient(0deg, rgba(0, 3, 52, 0.736), rgba(0, 15, 52, 0.801)),
+              url('/assets/img/slider4.jpeg') center center / cover no-repeat;
+}
+
+
+.slide-bg-5 {
+  background: linear-gradient(0deg, rgba(0, 3, 52, 0.736), rgba(0, 15, 52, 0.801)),
+              url('/assets/img/slider5.jpeg') center center / cover no-repeat;
+}
+
+.slide-bg-6 {
+  background: linear-gradient(0deg, rgba(0, 3, 52, 0.736), rgba(0, 15, 52, 0.801)),
+              url('/assets/img/slider6.jpeg') center center / cover no-repeat;
+}
+
+.slide-bg-7 {
+  background: linear-gradient(0deg, rgba(0, 3, 52, 0.736), rgba(0, 15, 52, 0.801)),
+              url('/assets/img/slider7.jpeg') center center / cover no-repeat;
+}
+
+
+.slide-bg-8 {
+  background: linear-gradient(0deg, rgba(0, 3, 52, 0.736), rgba(0, 15, 52, 0.801)),
+              url('/assets/img/slider8.jpeg') center center / cover no-repeat;
+}
+
+
+
+
+.slide-bg-9 {
+  background: linear-gradient(0deg, rgba(0, 3, 52, 0.736), rgba(0, 15, 52, 0.801)),
+              url('/assets/img/slider9.jpeg') center center / cover no-repeat;
+}
+
+.slide-bg-10 {
+  background: linear-gradient(0deg, rgba(0, 3, 52, 0.736), rgba(0, 15, 52, 0.801)),
+              url('/assets/img/slider10.jpeg') center center / cover no-repeat;
+}
+
+
+
+
+#hero-carousel, 
+#hero-carousel .carousel-inner, 
+#hero-carousel .carousel-item {
+  width: 100% !important;
+}
+
+.carousel-item {
+  height: 85vh;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+
+
 
 
 .hero .carousel-container {
@@ -688,7 +761,7 @@ section,
   text-align: center;
   position: relative;
   min-height: 75vh;
-  padding-top: 100px;
+  padding-top: 10px;
 }
 
 .hero h2 {
