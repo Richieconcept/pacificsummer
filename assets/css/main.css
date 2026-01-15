@@ -20,9 +20,9 @@
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root { 
   --background-color: #ffffff; /* Background color for the entire website, including individual sections */
-  --default-color: #09005d; /* Default color used for the majority of the text content across the entire website */
-  --heading-color: #000751; /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #0063f8; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+  --default-color: #000000; /* Default color used for the majority of the text content across the entire website */
+  --heading-color: #084800; /* Color for headings, subheadings and title throughout the website */
+  --accent-color: #ff4800; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
@@ -30,11 +30,11 @@
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
 :root {
   --nav-color: #ffffff;  /* The default color of the main navmenu links */
-  --nav-hover-color: #0063f8; /* Applied to main navmenu links when they are hovered over or active */
+  --nav-hover-color: #004910; /* Applied to main navmenu links when they are hovered over or active */
   --nav-mobile-background-color: #ffffff; /* Used as the background color for mobile navigation menu */
   --nav-dropdown-background-color: #ffffff; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
   --nav-dropdown-color: #060606; /* Used for navigation links of the dropdown items in the navigation menu. */
-  --nav-dropdown-hover-color: #0063f8; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
+  --nav-dropdown-hover-color: #004910; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
 }
 
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
@@ -45,7 +45,7 @@
 }
 
 .dark-background {
-  --background-color: #03004f;
+  --background-color: #004910;
   --default-color: #ffffff;
   --heading-color: #ffffff;
   --surface-color: #404356;
@@ -102,7 +102,7 @@ h6 {
 .php-email-form .sent-message {
   display: none;
   color: #ffffff;
-  background: #0063f8;
+  background: #004910;
   text-align: center;
   padding: 15px;
   margin-bottom: 24px;
@@ -143,7 +143,7 @@ h6 {
 # Global Header
 --------------------------------------------------------------*/
 .header {
-  --background-color: rgba(10, 0, 77, 0.53);
+  --background-color: rgba(1, 61, 1, 0.53);
   --heading-color: #ffffff;
   color: var(--default-color);
   background-color: var(--background-color);
@@ -169,13 +169,13 @@ h6 {
 }
 
 .scrolled .header {
-  box-shadow: 0px 0 18px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0 18px rgba(0, 63, 1, 0.1);
 }
 
 /* Global Header on Scroll
 ------------------------------*/
 .scrolled .header {
-  --background-color: rgba(0, 10, 73, 0.9);
+  --background-color: rgba(2, 57, 0, 0.9);
 }
 
 /*--------------------------------------------------------------
@@ -671,7 +671,7 @@ section,
   width: 100%;
   overflow: hidden;
   position: relative;
-  background: linear-gradient(0deg, rgba(0, 3, 52, 0.736) 0%, rgba(0, 15, 52, 0.801) 100%);
+  background: linear-gradient(0deg, lch(17.81% 36.83 137.63 / 0.736) 0%, rgba(8, 72, 0, 0.801) 100%);
   padding: 0;
   display: flex;
   flex-direction: column;
@@ -680,15 +680,15 @@ section,
 }
 
 .slide-bg-1 {
-  background: linear-gradient(0deg, rgba(0, 3, 52, 0.736), rgba(0, 15, 52, 0.801)),
+  background: linear-gradient(0deg, rgba(0, 37, 4, 0.532), rgba(8, 45, 0, 0.801)),
               url('/assets/img/hero.png') center center / cover no-repeat;
 }
 
 .slide-bg-2 {
-  background: linear-gradient(0deg, rgba(0, 3, 52, 0.736), rgba(0, 15, 52, 0.801)),
-              url('/assets/img/slider2.jpeg') center center / cover no-repeat;
+  background: linear-gradient(0deg, rgba(0, 37, 4, 0.532), rgba(8, 45, 0, 0.801)),
+              url('/assets/img/slider10.jpeg') center center / cover no-repeat;
 }
-
+/* 
 .slide-bg-3 {
   background: linear-gradient(0deg, rgba(0, 3, 52, 0.736), rgba(0, 15, 52, 0.801)),
               url('/assets/img/slider3.jpeg') center center / cover no-repeat;
@@ -732,7 +732,7 @@ section,
 .slide-bg-10 {
   background: linear-gradient(0deg, rgba(0, 3, 52, 0.736), rgba(0, 15, 52, 0.801)),
               url('/assets/img/slider10.jpeg') center center / cover no-repeat;
-}
+} */
 
 
 
@@ -3466,5 +3466,5 @@ section,
 
 
 .welcome{
-  color: #00aeff;
+  color: #ff4800;
 }
